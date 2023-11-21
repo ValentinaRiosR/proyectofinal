@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin-left: 0;
     padding: 0;
     background-color: hsla(0, 0%, 18%, 0.137)
 }
@@ -14,14 +14,47 @@ header {
 }
 
 #contenedor {
-    background-image: url('sushi.jpg'); /* Reemplaza con la ruta de tu imagen */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
-    background-position: center; /* Centra la imagen en el contenedor */
-    height: 30px; /* Ajusta la altura según tus necesidades */
-    /* Otros estilos para el contenedor si es necesario */
+    background-image: url('sushi.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 30px; 
+    
   }
   .menu-media li {
     display: inline-block;
     margin: 0 10px;
+}
+#logo-empresa {
+    max-width: 100%;
+    display: block;
+    margin: -30px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border: 2px solid #9b9b9b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 10);
+    z-index: 9999;
+
+}
+
+
+
+.about {
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.about h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
 }
 

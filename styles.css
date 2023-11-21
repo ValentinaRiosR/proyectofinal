@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2e2e2e
+    background-color: hsla(0, 0%, 18%, 0.137)
 }
 header {
     background-color: rgba(48, 51, 53, 0.226);
@@ -10,22 +10,18 @@ header {
     padding: 10px 0;
     text-align: center;
 
-/* Establece el contenedor para posicionar la imagen */
-#contenedor {
-    position: relative;
-    width: 500px; /* Puedes ajustar el ancho según tus necesidades */
-    height: 300px; /* Puedes ajustar la altura según tus necesidades */
-  }
-  
-  /* Establece las propiedades de la imagen */
-  #fondo {
-    position: left;
-    top: 50px; /* Ajusta la posición vertical según tus necesidades */
-    left: 10000px; /* Ajusta la posición horizontal según tus necesidades */
-    width: 500px; /* Puedes ajustar el ancho de la imagen según tus necesidades */
-    height:auto /* Puedes ajustar la altura de la imagen según tus necesidades */
-  }
-  
+
 }
 
+#contenedor {
+    background-image: url('sushi.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    height: 30px; /* Ajusta la altura según tus necesidades */
+    /* Otros estilos para el contenedor si es necesario */
+  }
+  .menu-media li {
+    display: inline-block;
+    margin: 0 10px;
+}
 

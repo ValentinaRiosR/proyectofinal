@@ -93,3 +93,29 @@ body {
     font-size: 20px;
     color: #333333;
 }
+.services .read-more-button {
+    background-color: #516674;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.reviews .read-more-button {
+    background-color: #516674;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.services .read-more-button:hover {
+    background-color: rgba(103, 94, 143, 0.776)
+}
+
+.reviews .read-more-button:hover {
+    background-color: #516674;
+}

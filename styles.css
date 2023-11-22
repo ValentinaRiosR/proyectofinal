@@ -147,3 +147,26 @@ body {
     color: #666;
     line-height: 1.6;
 }
+.review-author {
+    margin-top: 15px;
+}
+
+.review-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.review-author span {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.social-media {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}

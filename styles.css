@@ -27,7 +27,7 @@ header {
 
 }
 .about {
-    background-color: #5e5e5ee0;
+    background-color: #f8f8f8c4;
     padding: 30px;
     text-align: center;
     margin: 50px;
@@ -35,42 +35,61 @@ header {
 
 .about h2 {
     font-size: 28px;
-    color: #e9e9e9;
+    color: #9b9b9b;
     margin-bottom: 20px;
 }
 
 .about p {
     font-size: 16px;
-    color: #b8b8b8;
+    color: #8f8e8e;
     line-height: 1.6;
 }
 
 body {
-    background-image: url('sushi.jpg'); /* Reemplaza con la ruta de tu imagen */
-    background-size: auto; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
-    margin: 0; /* Elimina el margen predeterminado del cuerpo */
-    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
-    height: 100vh; /* Establece la altura al 100% de la altura visible del dispositivo */
-    /* Otros estilos para el cuerpo de la página si es necesario */
+    background-image: url('sushi.jpg'); 
+    background-size: auto; 
+    background-position: center; 
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+
   }
 
   .about h2 {
     font-size: 28px;
-    color: #333;
+    color: #2c2c2c;
     margin-bottom: 20px;
 }
 
 .about p {
     font-size: 16px;
-    color: #666;
+    color: #363636;
     line-height: 1.6;
 }
 
 .services {
-    background-color: #fff;
+    background-color: #ffffffbd;
     padding: 30px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.services li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.services h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+
+.services ul li .price {
+    font-size: 20px;
+    color: #333333;
 }

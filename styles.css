@@ -1,5 +1,5 @@
 body {
-    font-family: sirukota;
+    font-family: Arial, Helvetica, sans-serif
     margin-left: 0;
     padding: 0;
     background-color: hsla(0, 0%, 18%, 0.918)
@@ -9,13 +9,8 @@ header {
     color: #fff;
     padding: 30px 0;
     text-align: center;
-    
-
-
 }
-
-
-  .menu-media li {
+.menu-media li {
     display: inline-block;
     margin: 0 10px;
 }
@@ -31,9 +26,6 @@ header {
     z-index: 9999;
 
 }
-
-
-
 .about {
     background-color: #5e5e5ee0;
     padding: 30px;
@@ -62,3 +54,23 @@ body {
     height: 100vh; /* Establece la altura al 100% de la altura visible del dispositivo */
     /* Otros estilos para el cuerpo de la página si es necesario */
   }
+
+  .about h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.services {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

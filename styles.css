@@ -119,3 +119,31 @@ body {
 .reviews .read-more-button:hover {
     background-color: #516674;
 }
+.reviews {
+    background-color: #f9f9f9c4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.review-card {
+    background-color: #ffffffd7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
